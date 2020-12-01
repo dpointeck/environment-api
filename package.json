@@ -1,0 +1,24 @@
+{
+  "name": "environment-api",
+  "version": "0.0.1",
+  "description": "a service for storing and retreiving environmental information.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpointeck/environment-api.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "microservice"
+  ],
+  "author": "Daniel Pointecker (dpointeck)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpointeck/environment-api/issues"
+  },
+  "homepage": "https://github.com/dpointeck/environment-api#readme"
+}
