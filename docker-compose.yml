@@ -1,0 +1,12 @@
+version: '3'
+services:
+  database:
+    image: 'mongo'
+    container_name: 'enviro-mongo'
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=dpointeck
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+    volumes:
+      - ./mongo-volume:/data/db
+    ports:
+      - '27017:27017'
