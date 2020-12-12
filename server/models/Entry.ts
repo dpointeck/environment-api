@@ -6,6 +6,7 @@ export interface IEntry extends Document {
   humidity: number;
   gas: number;
   altitude: number;
+  loctationId: string;
   created: Date;
 }
 
@@ -15,6 +16,7 @@ const entrySchema: Schema = new Schema({
   humidity: { type: Number },
   gas: { type: Number },
   altitude: { type: Number },
+  locationId: { type: String },
   created: { type: Date, default: Date.now }
 });
 
